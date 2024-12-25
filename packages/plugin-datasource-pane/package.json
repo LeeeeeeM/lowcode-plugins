@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-plugin-datasource-pane",
+  "name": "@evilemon/lowcode-plugin-datasource-pane",
   "version": "1.0.11",
   "description": "低代码引擎数据源面板",
   "main": "lib/index.js",
@@ -21,6 +21,9 @@
     "require": [
       "ts-node/register"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "devDependencies": {
@@ -74,7 +77,7 @@
     "traverse": "^0.6.6",
     "xstate": "^4.26.0"
   },
-  "homepage": "https://unpkg.com/@alilc/lowcode-plugin-datasource-pane@1.0.11/build/index.html",
+  "homepage": "https://unpkg.com/@evilemon/lowcode-plugin-datasource-pane@1.0.11/build/index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/alibaba/lowcode-plugins.git",

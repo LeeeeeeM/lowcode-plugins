@@ -37,6 +37,7 @@ export class DataSourceImport extends PureComponent<
         options: {
           method: 'GET',
           isCors: true,
+          withCredentials: false,
           timeout: 5000,
           uri: '/info',
           params: {},

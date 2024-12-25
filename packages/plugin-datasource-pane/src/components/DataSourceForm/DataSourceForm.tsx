@@ -105,6 +105,15 @@ const SCHEMA = {
             addonAfter: <ComponentSwitchBtn component="LowcodeExpression" />,
           },
         },
+        withCredentials: {
+          type: 'boolean',
+          title: '是否携带凭证',
+          required: false,
+          default: false,
+          'x-decorator-props': {
+            addonAfter: <ComponentSwitchBtn component="LowcodeExpression" />,
+          },
+        },
         timeout: {
           type: 'number',
           title: '超时时长（毫秒）',
